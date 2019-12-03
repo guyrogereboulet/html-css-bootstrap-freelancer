@@ -29,6 +29,10 @@ nav {
   height: 700px;
 }
 
+.width {
+  width: 100%;
+}
+
 .height {
   max-width: 80%;
 }
@@ -48,31 +52,20 @@ nav {
   transform: translate(-50%,-50%);
 }
 
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
 .padding_top_100 {
   padding-top: 100px;
 }
 
+.padding_bottom_100 {
+  padding-bottom: 100px;
+}
+
 .blocchetto_colorato {
   height: 400px;
-  width: 400px;
+  width: 100%;
   background-color: yellow;
-  border: 1px solid black;
 }
 
-.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container {
-  width: 940px;
+.margin_bottom_30 {
   margin-bottom: 30px;
 }
