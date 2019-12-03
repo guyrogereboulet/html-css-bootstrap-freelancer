@@ -1,0 +1,16 @@
+.background_blue {
+  background-color: #2C3E50;
+}
+.white {
+  color: white;
+}
+.pull-left {
+  float: left !important;
+}
+.pull-right {
+  float: right !important;
+}
+
+.position_right {
+  text-align: right;
+}
