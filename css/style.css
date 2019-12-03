@@ -55,6 +55,24 @@ nav {
 }
 
 
-.padding_top_100{
+.padding_top_100 {
   padding-top: 100px;
+}
+
+.blocchetto_colorato {
+  height: 400px;
+  width: 400px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 940px;
+  margin-bottom: 30px;
 }
