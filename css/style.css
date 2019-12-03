@@ -25,8 +25,8 @@ nav {
   text-align: center;
 }
 
-.height_300 {
-  height: 300px;
+.height_700 {
+  height: 700px;
 }
 
 .height {
@@ -41,9 +41,20 @@ nav {
   position: relative;
 }
 
-.absolute {
+.text_and_image {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.padding_top_100{
+  padding-top: 100px;
 }
