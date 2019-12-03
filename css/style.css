@@ -1,6 +1,16 @@
+nav {
+  line-height: 50px;
+  height: 50px;
+}
+
 .background_blue {
   background-color: #2C3E50;
 }
+
+.background_green {
+  background-color: #1ABC9C;
+}
+
 .white {
   color: white;
 }
@@ -11,6 +21,29 @@
   float: right !important;
 }
 
-.position_right {
-  text-align: right;
+.position_center {
+  text-align: center;
+}
+
+.height_300 {
+  height: 300px;
+}
+
+.height {
+  max-width: 80%;
+}
+
+.center {
+  text-align: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
