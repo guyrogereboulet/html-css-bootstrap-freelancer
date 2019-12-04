@@ -93,12 +93,35 @@ span {
 }
 
 /* Portfolio */
+
+.uno {
+  height: 300px;
+  background-image: url(../img/cabin.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+
 .box_portfolio {
   width: 100%;
   height: 300px;
   margin-bottom: 30px;
+  border-radius: 10px;
   background-color: blue;
 }
+
+.layover {
+  width: 100%;
+  height: 100%;
+}
+
+.layover:hover {
+  background-color:rgba(26,188,156,.9);
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
 
 /* Footer */
 .footer_top {
