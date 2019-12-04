@@ -187,13 +187,53 @@ span {
 .hr_black {
   display: inline-block;
   width: 6%;
-  border: 3px solid black;
+  border: 3px solid #2C3E50;
+}
+
+.portfolio_text {
+  color: #2C3E50;
 }
 
 .portfolio_text h2 {
   font-size: 3.8em;
+
 }
 
+.glyphicon .glyphicon-star {
+  color: #2C3E50;
+}
+
+/* About */
+.about_text h2 {
+  font-size: 3.8em;
+}
+
+.about_text {
+  color: white;
+}
+
+.btn_green_about {
+  background-color: #1ABC9C;
+  color: white;
+  text-align: center;
+  line-height: 10px;
+  border: 2px solid white;
+}
+
+.btn_green_about .glyphicon{
+  vertical-align: middle;
+  font-size: 200%;
+}
+
+#about p {
+  font-size: 2em;
+  color: white;
+}
+
+/* Contact */
+.form_container {
+  font-size: 1.5em;
+}
 
 
 /* Footer */
@@ -213,7 +253,6 @@ span {
   }
 
 }
-
 
 @media screen and (min-width: 768px) {
   .wrapper_md_60 {
