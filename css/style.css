@@ -73,7 +73,7 @@ h1 {
   font-size: 5em;
 }
 
-hr {
+.hr_white {
   display: inline-block;
   width: 10%;
   border: 3px solid white;
@@ -103,6 +103,51 @@ span {
   z-index: 1;
 }
 
+.due {
+  height: 300px;
+  background-image: url(../img/cake.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.tre {
+  height: 300px;
+  background-image: url(../img/circus.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.quattro {
+  height: 300px;
+  background-image: url(../img/game.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.cinque {
+  height: 300px;
+  background-image: url(../img/safe.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+
+.sei {
+  height: 300px;
+  background-image: url(../img/submarine.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+
 .box_portfolio {
   width: 100%;
   height: 300px;
@@ -112,6 +157,7 @@ span {
 }
 
 .layover {
+  position: relative;
   width: 100%;
   height: 100%;
 }
@@ -121,6 +167,33 @@ span {
   margin-bottom: 30px;
   border-radius: 10px;
 }
+
+.layover span {
+  visibility: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.layover:hover span {
+  visibility: visible;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.hr_black {
+  display: inline-block;
+  width: 6%;
+  border: 3px solid black;
+}
+
+.portfolio_text h2 {
+  font-size: 3.8em;
+}
+
 
 
 /* Footer */
