@@ -33,7 +33,7 @@ body {
   left: 0;
   width: 100%;
   height: 80px;
-  background: #2C3E50;
+  background-color: #2C3E50;
   line-height: 80px;
   z-index: 3;
 }
@@ -42,10 +42,10 @@ body {
   line-height: 60px;
   color: white;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 200%;
 }
 
-.menu li{
+.menu li {
   display: inline;
   list-style: none;
   color: white;
@@ -53,6 +53,16 @@ body {
   font-size: 1em;
   padding-left: 20px;
 }
+
+.menu a:hover {
+  color: #1ABC9C;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+}
+
 
 /* Jumbo */
 .jumbo {
@@ -166,6 +176,7 @@ span {
   background-color:rgba(26,188,156,.9);
   margin-bottom: 30px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .layover span {
@@ -218,11 +229,21 @@ span {
   text-align: center;
   line-height: 10px;
   border: 2px solid white;
+  padding: 20px;
+}
+
+.btn_green_about:hover {
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+  line-height: 10px;
+  border: 2px solid white;
+  padding: 20px;
 }
 
 .btn_green_about .glyphicon{
   vertical-align: middle;
-  font-size: 200%;
+  font-size: 100%;
 }
 
 #about p {
@@ -230,21 +251,59 @@ span {
   color: white;
 }
 
+
+
 /* Contact */
 .form_container {
   font-size: 1.5em;
 }
 
+.send {
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 100%;
+  margin-top: 10px;
+}
+
 
 /* Footer */
 .footer_top {
-  background-color: blue;
-}
-.footer_bottom {
-  padding: 20px 0;
-  background-color: darkblue;
+  background-color: #2C3E50;
 }
 
+.footer_bottom {
+  padding: 20px 0;
+  background-color: #000000;
+  color: #FFFF;
+}
+
+.white{
+  color: white;
+  font-size: 1.5em;
+}
+
+.social {
+  text-align: center;
+}
+
+.social i {
+  padding: 11px;
+  border-radius: 22px;
+  border: 1px solid #FFFF;
+  color: white;
+}
+
+.social i:hover{
+  padding: 11px;
+  border-radius: 22px;
+  border: 1px solid #FFFF;
+  color: black;
+  background-color: white;
+}
+
+
+
+/* Media queries */
 
 @media screen and (max-width: 768px) {
   .wrapper_xs_100 {
